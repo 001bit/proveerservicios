@@ -1,0 +1,16 @@
+.success-btn {
+    list-style: none;
+    background-color: #a5c422;
+    display: inline-block;
+    padding: 1rem 2.5rem;
+    border-radius: 4px;
+}
+
+.success-btn a {
+    scroll-behavior: smooth;
+    color: #fff;
+}
+
+.team-info h5 {
+    color: rgb(110, 110, 110);
+}
