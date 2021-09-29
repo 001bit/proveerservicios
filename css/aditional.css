@@ -25,7 +25,11 @@
     width: 100%;
     max-width: 400px;
 }
-
+.navbar-brand {
+    display: flex;
+    align-item: center;
+    justify-content: center;
+}
 @media screen and (max-width: 768px) {
     .doctorwapo {
         display: none;
