@@ -12,7 +12,7 @@ if(isset($_POST['submit'])) {
         $header.= "X-Mailer: PHP/" . phpversion();
         $mail = @mail($email, $asunto, $name, $phone, $header);
         if($mail) {
-            echo ('<h4>Mail enviado exitosamente</h4>');
+            header('location: ./index.html');
         }
    }
 }
