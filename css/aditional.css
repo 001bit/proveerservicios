@@ -14,3 +14,23 @@
 .team-info h5 {
     color: rgb(110, 110, 110);
 }
+
+.formulariopiola {
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+}
+
+.doctorwapo {
+    width: 100%;
+    max-width: 400px;
+}
+
+@media screen and (max-width: 768px) {
+    .doctorwapo {
+        display: none;
+    }
+    .formulariopiola {
+        display: block;
+    }
+}
